@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DepartureBoard</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./components.css" />
+  </head>
+  <body class="font-default text-x-small">
+    <table class="width-full height-full border-collapse-collapse">
+      <tbody>
+        <tr class="height-40percent background-gray text-white">
+          <td id="destination" class="padding-8px text-x-small">
+            馬喰町・東京・横浜・鎌倉方面
+            <br>
+            <span class="text-xx-small">
+              for Bakurocho, Tokyo, Yokohama, Kamakura
+            </span>
+          </td>
+          <td id="route-color-bar" class="line-bar">
+          </td>
+          <td id="route-name" class="padding-8px">
+            総武線（特急・快速）
+            <br>
+            <span class="text-xx-small">
+              Sobu Line (Limited, Rapid)
+            </span>
+          </td>
+          <td id="platform-number" class="padding-8px text-xx-large">
+            3
+          </td>
+        </tr>
+        <tr class="background-black">
+          <td colspan="42" class="padding-times">
+            <table id="times" class="width-full background-black font-mono text-medium text-lime">
+              <tbody>
+                <tr>
+                  <td class="text-orange bilingual" data-japanese="快速" data-english="RAPID"></td>
+                  <td>8:28</td>
+                  <td class="text-orange bilingual" data-japanese="東京" data-english="Tokyo"></td>
+                  <td class="bilingual" data-japanese="15両" data-english="15 Cars"></td>
+                </tr>
+                <tr>
+                  <td class="text-orange bilingual" data-japanese="快速" data-english="RAPID"></td>
+                  <td>8:37</td>
+                  <td class="text-orange bilingual" data-japanese="久里浜" data-english="Kurihama"></td>
+                  <td class="bilingual" data-japanese="15両" data-english="15 Cars"></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+      // You can also require other files to run in this process
+      window.jQuery = window.$ = require('./jquery-3.1.1.min.js');
+      require('./renderer.js');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+#route-color-bar {
+  width: 9%;
+  margin-top: 8px;
+  background-color: darkblue;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.height-40percent {
+  height: 40%;
+}
+
+.padding-8px {
+  padding: 8px;
+}
+
+.padding-times {
+  padding: 4% 8%;
+}
+
+.background-gray {
+  background-color: darkgray;
+}
+
+.background-dark {
+  background-color: dimgray;
+}
+
+.background-black {
+  background-color: black;
+}
+
+.border-collapse-collapse {
+  border-collapse: collapse;
+}
+
+.font-default {
+  font-family: 'BlinkMacSystemFont', 'Hiragino Sans';
+}
+
+.font-mono {
+  font-family: SF Mono, 'Hiragino Sans';
+}
+
+.text-white {
+  color: white;
+}
+
+.text-lime {
+  color: lime;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.text-xx-large {
+  font-size: xx-large;
+}
+
+.text-medium {
+  font-size: medium;
+}
+
+.text-small {
+  font-size: small;
+}
+
+.text-x-small {
+  font-size: x-small;
+}
+
+.text-xx-small {
+  font-size: xx-small;
+}
