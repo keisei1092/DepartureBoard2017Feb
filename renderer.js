@@ -29,11 +29,9 @@
   }
 
   function repaint() {
-    console.log('hoge');
     bilingualLabels();
   }
 
   repaint();
   setInterval(repaint, 5000);
 }());
-
