@@ -11,6 +11,17 @@
   $('#route-name-sub').html(route.nameSub);
   $('#platform-number').html(route.platformNumber);
 
+  times = require('./times');
+
+  var $firstRow = $('<tr></tr>');
+  $firstRow.append(times[0].map(function(element) { return element.domElement(); }));
+
+  var $secondRow = $('<tr></tr>');
+  $secondRow.append(times[1].map(function(element) { return element.domElement(); }));
+
+  $('#times-body').append($firstRow);
+  $('#times-body').append($secondRow);
+
   function bilingualLabels() {
     $('.bilingual').each(function(index, element) {
       $element = $(element);
