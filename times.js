@@ -28,15 +28,13 @@ TimeTableElement.prototype.domElement = function() {
 
 module.exports = [
   [
-    TimeTableElement({ klassName: 'text-orange bilingual', dataJapanese: '快速', dataEnglish: 'RAPID' }),
-    TimeTableElement({ text: '8:28' }),
-    TimeTableElement({ klassName: 'text-orange bilingual', dataJapanese: '東京', dataEnglish: 'Tokyo' }),
-    TimeTableElement({ klassName: 'bilingual', dataJapanese: '15両', dataEnglish: '15 Cars' })
+    TimeTableElement({ klassName: 'bilingual', dataJapanese: '山手線', dataEnglish: 'Yamanote Line' }),
+    TimeTableElement({ klassName: 'text-orange bilingual', dataJapanese: '新宿・池袋方面', dataEnglish: 'Shinjuku & Ikebukuro' }),
+    TimeTableElement({ text: '8:28' })
   ],
   [
-    TimeTableElement({ klassName: 'text-orange bilingual', dataJapanese: '快速', dataEnglish: 'RAPID' }),
-    TimeTableElement({ text: '8:37' }),
-    TimeTableElement({ klassName: 'text-orange bilingual', dataJapanese: '東京', dataEnglish: 'Tokyo' }),
-    TimeTableElement({ klassName: 'bilingual', dataJapanese: '15両', dataEnglish: '15 Cars' })
+    TimeTableElement({ klassName: 'bilingual', dataJapanese: '山手線', dataEnglish: 'Yamanote Line' }),
+    TimeTableElement({ klassName: 'text-orange bilingual', dataJapanese: '新宿・池袋方面', dataEnglish: 'Shinjuku & Ikebukuro' }),
+    TimeTableElement({ text: '8:37' })
   ]
 ];
