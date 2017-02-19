@@ -1,5 +1,7 @@
 # DepartureBoard2017Feb
 
+![screen_shot](./screen_shot.gif)
+
 ## Usage
 
 ```bash
