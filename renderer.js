@@ -2,6 +2,15 @@
 // be executed in the renderer process for that window.
 // All of the Node.js APIs are available in this process.
 (function() {
+  route = require('./route');
+
+  $('#destination').html(route.destination);
+  $('#destination-sub').html(route.destinationSub);
+  $('#route-color-bar').css('background-color', route.color);
+  $('#route-name').html(route.name);
+  $('#route-name-sub').html(route.nameSub);
+  $('#platform-number').html(route.platformNumber);
+
   function bilingualLabels() {
     $('.bilingual').each(function(index, element) {
       $element = $(element);
